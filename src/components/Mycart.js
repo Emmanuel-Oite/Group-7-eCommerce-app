@@ -1,3 +1,4 @@
+// src/components/MyCart.js
 import React, { useState, useEffect } from 'react';
 import { useCart } from '../contexts/CartContext';
 import Checkout from './Checkout';
@@ -15,7 +16,7 @@ const MyCart = () => {
   useEffect(() => {
     const fetchReviews = async () => {
       try {
-        const response = await fetch('http://localhost:3001/reviews');
+        const response = await fetch('http://localhost:3001/courses');
         const data = await response.json();
         setReviews(data);
       } catch (error) {
@@ -32,25 +33,27 @@ const MyCart = () => {
 
   const addReview = async (productId) => {
     try {
-      const response = await fetch('http://localhost:3001/reviews', {
+      const response = await fetch('http://localhost:3001/courses', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
           productId,
-          user: userName,
-          comment: reviewText,
+          reviews: [
+            ...reviews[productId]?.reviews,
+            { user: userName, comment: reviewText },
+          ],
         }),
       });
-  
+
       if (response.ok) {
         const updatedReviews = { ...reviews };
         if (!updatedReviews[productId]) {
-          updatedReviews[productId] = [];
+          updatedReviews[productId] = { reviews: [] };
         }
-        updatedReviews[productId].push({ user: userName, comment: reviewText });
-  
+        updatedReviews[productId].reviews.push({ user: userName, comment: reviewText });
+
         setReviews(updatedReviews);
         setReviewText('');
         setUserName('');
@@ -82,16 +85,19 @@ const MyCart = () => {
                   <p>{product.longDescription}</p>
                   {/* Display Existing Reviews */}
                   <div className="existing-reviews">
-                    {reviews[product.id] && (
+                    {Array.isArray(reviews[product.id]?.reviews) &&
+                    reviews[product.id]?.reviews.length > 0 ? (
                       <div>
                         <h4>Customer Reviews:</h4>
-                        {reviews[product.id].map((review, index) => (
+                        {reviews[product.id]?.reviews.map((review, index) => (
                           <p key={index}>
                             <strong>{review.user}: </strong>
                             {review.comment}
                           </p>
                         ))}
                       </div>
+                    ) : (
+                      <p>No reviews for this product yet.</p>
                     )}
                   </div>
                   {/* Add Review Section */}

@@ -197,15 +197,69 @@
         }
       ],
       "id": 11
+    },
+    {
+      "title": "",
+      "shortDescription": "",
+      "longDescription": "",
+      "price": 0,
+      "image": "",
+      "reviews": [
+        {
+          "user": "User1",
+          "comment": "Great product! Highly recommend."
+        },
+        {
+          "user": "User2",
+          "comment": "Awesome quality. Will buy again."
+        }
+      ],
+      "id": 12
+    },
+    {
+      "productId": 1,
+      "reviews": [
+        {
+          "user": "Eva",
+          "comment": "Amazing course! I've successfully set up my hydroponic garden."
+        },
+        {
+          "user": "Charlie",
+          "comment": "Very informative. Loved the practical demonstrations."
+        },
+        {
+          "user": "g",
+          "comment": "g"
+        }
+      ],
+      "id": 13
     }
   ],
-   "users": [
-    { "id": 1, "username": "user1", "password": "pass1" },
-    { "id": 2, "username": "user2", "password": "pass2" },
-    { "id": 3, "username": "user3", "password": "pass3" },
-    { "id": 4, "username": "user4", "password": "pass4" },
-    { "id": 5, "username": "user5", "password": "pass5" }
- ]
+  "users": [
+    {
+      "id": 1,
+      "username": "user1",
+      "password": "pass1"
+    },
+    {
+      "id": 2,
+      "username": "user2",
+      "password": "pass2"
+    },
+    {
+      "id": 3,
+      "username": "user3",
+      "password": "pass3"
+    },
+    {
+      "id": 4,
+      "username": "user4",
+      "password": "pass4"
+    },
+    {
+      "id": 5,
+      "username": "user5",
+      "password": "pass5"
+    }
+  ]
 }
-
-

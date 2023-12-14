@@ -9,7 +9,7 @@ import AddProduct from './components/AddProduct';
 import Footer from './components/Footer'; // Import the Footer component
 import SignUp from './components/SignUp';
 import Login from './components/Login';
-import { AuthProvider,  AuthContext } from './contexts/AuthContext';
+import { AuthProvider } from './contexts/AuthContext';
 const App = () => {
   return (
     <Router>
