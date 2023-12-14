@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Homepage from './components/Homepage';
 import ProductList from './components/ProductList';
-import MyCart from './components/MyCart';
+import MyCart from './components/Mycart';
 import AddProduct from './components/AddProduct';
 import Footer from './components/Footer'; // Import the Footer component
 import SignUp from './components/SignUp';
