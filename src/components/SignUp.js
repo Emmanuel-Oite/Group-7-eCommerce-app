@@ -1,7 +1,7 @@
-// src/components/SignUp.js
+
 import React, { useState } from 'react';
 import { useAuth } from '../contexts/AuthContext';
-import '../index.css'
+import '../index.css';
 
 const SignUp = () => {
   const { signUp } = useAuth();
@@ -9,11 +9,16 @@ const SignUp = () => {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
 
-  const handleSignUp = () => {
-    signUp(username, password);
-    setUsername('');
-    setPassword('');
-    setError('');
+  const handleSignUp = async () => {
+    try {
+      await signUp(username, password);
+      setUsername('');
+      setPassword('');
+      setError('');
+    } catch (error) {
+      setError('Error signing up. Please try again.');
+      console.error('Error signing up:', error);
+    }
   };
 
   return (

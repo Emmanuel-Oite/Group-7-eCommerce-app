@@ -260,6 +260,11 @@
       "id": 5,
       "username": "user5",
       "password": "pass5"
+    },
+    {
+      "username": "emmanuel",
+      "password": "11223344",
+      "id": 6
     }
   ]
 }

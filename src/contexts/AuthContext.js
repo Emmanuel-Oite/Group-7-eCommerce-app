@@ -1,4 +1,4 @@
-// src/contexts/AuthContext.js
+
 import React, { createContext, useContext, useState, useEffect } from 'react';
 
 const AuthContext = createContext(null);
@@ -30,11 +30,28 @@ export const AuthProvider = ({ children }) => {
     setUser(null);
   };
 
-  const signUp = (username, password) => {
-    // Implement the logic to handle sign-up, e.g., making an API call to add a new user.
-    console.log('Signing up:', username, password);
-    // You can also call login here if you want to automatically log in the user after signing up.
-    // login(username);
+  const signUp = async (username, password) => {
+    try {
+      
+      const response = await fetch('http://localhost:3001/users', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ username, password }),
+      });
+
+      if (response.ok) {
+        
+        setUsers((prevUsers) => [...prevUsers, { id: Date.now(), username, password }]);
+        
+      } else {
+        throw new Error('Failed to sign up');
+      }
+    } catch (error) {
+      console.error('Error signing up:', error);
+      throw error;
+    }
   };
 
   return (
