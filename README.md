@@ -33,14 +33,9 @@ yarn start
 1. [Tailwind CSS](https://tailwindcss.com/)
 2. [Figma](https://www.figma.com/)
 3. [React](https://reactnative.dev/)
+   
 ## Copyright and Licence
-MIT License
-Copyright (c) 2023 Educatio.
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files.
-in no event shall the authors or copyright holders be liable for any claim, damages or other
-liability arising from, out of or in connection with the software.
+(c)2023 Educatio. All rights reserved
 
 #### Collaborate
 email us at contact@educatio.com
