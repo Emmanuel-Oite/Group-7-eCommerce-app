@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Group-7-eCommerce-app/static/css/main.d8e1db6f.css",
+    "main.js": "/Group-7-eCommerce-app/static/js/main.f3c7a9a5.js",
+    "index.html": "/Group-7-eCommerce-app/index.html",
+    "main.d8e1db6f.css.map": "/Group-7-eCommerce-app/static/css/main.d8e1db6f.css.map",
+    "main.f3c7a9a5.js.map": "/Group-7-eCommerce-app/static/js/main.f3c7a9a5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8e1db6f.css",
+    "static/js/main.f3c7a9a5.js"
+  ]
+}
