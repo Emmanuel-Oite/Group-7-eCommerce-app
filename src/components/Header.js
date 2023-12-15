@@ -24,7 +24,7 @@ const Header = () => {
             <Link to="/mycart" className="cart-icon">
               <i className="fas fa-shopping-cart"></i>
               {/* Replace 'cartCounter' with your actual counter logic */}
-              <span className="cart-counter">Cart</span>
+              <span className="cart-counter"></span>
             </Link>
             <button onClick={logout}>Logout</button>
           </>
