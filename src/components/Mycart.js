@@ -77,13 +77,14 @@ const MyCart = () => {
           {cart.map((product) => (
             <div key={product.id} className="cart-item-container">
               <div className="cart-item">
-                <img src={product.image} alt={product.title} className="cart-item-image" />
+              <img src={`/images/${product.image}`} alt={product.title} className="cart-item-image" />
+
+
                 <div className="cart-item-details">
                   <h3>{product.title}</h3>
                   <p>${product.price.toFixed(2)}</p>
                   <p>{product.description}</p>
                   <p>{product.longDescription}</p>
-                  {/* Display Existing Reviews */}
                   <div className="existing-reviews">
                     {Array.isArray(reviews[product.id]?.reviews) &&
                     reviews[product.id]?.reviews.length > 0 ? (
