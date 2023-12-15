@@ -7,11 +7,20 @@ import '../index.css';
 const Footer = () => {
   return (
     <footer className="footer-container">
-        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"></a>
-      <div className="footer-left">
-        {/* Fix the image source for the logo */}
+      <div className="footer-about">
+        <h3>About Educatio</h3>
+        <p>
+          Educatio is your gateway to a world of learning. We offer a diverse range of courses
+          tailored to empower and inspire. Whether you're seeking to advance your career, explore
+          a new hobby, or unlock new professional skills, our courses are designed with you in mind.
+          With experienced instructors and a commitment to quality education, Educatio is the ideal
+          platform for lifelong learners. Join our community today and start your journey of growth
+          and discovery.
+        </p>
+      </div>
+      
+      <div className="footer-logo-social">
         <img src="/images/Educatio logo.png" alt="Company Logo" className="footer-logo" />
-
         <div className="social-links">
           <a href="https://facebook.com/Educatio" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faFacebook} />
@@ -24,18 +33,13 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className="footer-right">
-        <div className="contact-info">
-          <p>Educatio</p>
-          <p>123 Learning Ave, Knowledge City, 101010</p>
-          <p>Phone: +1-234-567-8900</p>
-          <p>Email: contact@educatio.com</p>
-          <p>Website: www.educatio.com</p>
-        </div>
-        
-        <div className="map-container">
-          
-        </div>
+
+      <div className="footer-contact">
+        <p>Educatio</p>
+        <p>123 Learning Ave, Knowledge City, 101010</p>
+        <p>Phone: +1-234-567-8900</p>
+        <p>Email: contact@educatio.com</p>
+        <p>Website: www.educatio.com</p>
       </div>
     </footer>
   );
