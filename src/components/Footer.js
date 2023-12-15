@@ -20,7 +20,8 @@ const Footer = () => {
       </div>
       
       <div className="footer-logo-social">
-        <img src="/images/Educatio logo.png" alt="Company Logo" className="footer-logo" />
+      <img src={`${process.env.PUBLIC_URL}/images/Educatio logo.png`} alt="Company Logo" className="footer-logo" />
+
         <div className="social-links">
           <a href="https://facebook.com/Educatio" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faFacebook} />
