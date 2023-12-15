@@ -10,7 +10,8 @@ const Footer = () => {
         <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"></a>
       <div className="footer-left">
         {/* Fix the image source for the logo */}
-        <img src="/Images/Logo_no_BG.png" alt="Company Logo" className="footer-logo" />
+        <img src="/images/logo no bg.png" alt="Company Logo" className="footer-logo" />
+
         <div className="social-links">
           <a href="#" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faFacebook} />
@@ -33,7 +34,7 @@ const Footer = () => {
         </div>
         
         <div className="map-container">
-          {/* Add your Google Maps component or embed code here */}
+          
         </div>
       </div>
     </footer>
