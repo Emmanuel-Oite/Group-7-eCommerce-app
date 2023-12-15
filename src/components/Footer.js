@@ -10,27 +10,27 @@ const Footer = () => {
         <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"></a>
       <div className="footer-left">
         {/* Fix the image source for the logo */}
-        <img src="/images/logo no bg.png" alt="Company Logo" className="footer-logo" />
+        <img src="/images/Educatio logo.png" alt="Company Logo" className="footer-logo" />
 
         <div className="social-links">
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a href="https://facebook.com/Educatio" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faFacebook} />
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a href="https://twitter.com/Educatio" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faTwitter} />
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a href="https://instagram.com/Educatio" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faInstagram} />
           </a>
         </div>
       </div>
       <div className="footer-right">
         <div className="contact-info">
-          <p>Company Name</p>
-          <p>Your Company Address</p>
-          <p>Phone: Your Phone Number</p>
-          <p>Email: your.email@example.com</p>
-          <p>Website: www.yourwebsite.com</p>
+          <p>Educatio</p>
+          <p>123 Learning Ave, Knowledge City, 101010</p>
+          <p>Phone: +1-234-567-8900</p>
+          <p>Email: contact@educatio.com</p>
+          <p>Website: www.educatio.com</p>
         </div>
         
         <div className="map-container">

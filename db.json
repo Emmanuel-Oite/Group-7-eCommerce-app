@@ -180,7 +180,6 @@
         }
       ]
     }
-
   ],
   "users": [
     {
@@ -212,6 +211,11 @@
       "username": "emmanuel",
       "password": "11223344",
       "id": 6
+    },
+    {
+      "username": "Jabali",
+      "password": "Jabali12*",
+      "id": 7
     }
   ]
 }

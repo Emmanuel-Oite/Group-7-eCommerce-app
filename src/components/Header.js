@@ -3,36 +3,35 @@ import { Link } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 
 const Header = () => {
-  const { user, logout } = useAuth();
+  const { user, logout, cartCounter } = useAuth(); // Assuming cartCounter is part of your auth context
 
   return (
     <header className="header-container">
-      <h1>E-Commerce Website</h1>
+      <div className="title-and-tagline">
+        <h1 className="site-title">Educatio E-Shop</h1>
+        <p className="site-tagline">Unleashing Potential Through Learning</p>
+      </div>
       <nav className="main-nav">
-        <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/mycart">My Cart</Link></li>
-          <li><Link to="/addproduct">Add Product</Link></li>
+        <ul className="nav-list">
+          <li className="nav-item"><Link to="/" className="nav-link">Home</Link></li>
+          <li className="nav-item"><Link to="/mycart" className="nav-link">My Cart</Link></li>
+          <li className="nav-item"><Link to="/addproduct" className="nav-link">Add Product</Link></li>
         </ul>
       </nav>
       <div className="auth-buttons">
         {user ? (
           <>
-            {/* Render Font Awesome user icon when authenticated */}
-            <i className="fas fa-user user-icon"></i>
-            {/* Render Font Awesome cart icon with counter */}
+            <i className="fas fa-user user-icon" aria-hidden="true"></i>
             <Link to="/mycart" className="cart-icon">
-              <i className="fas fa-shopping-cart"></i>
-              {/* Replace 'cartCounter' with your actual counter logic */}
-              <span className="cart-counter"></span>
+              <i className="fas fa-shopping-cart" aria-hidden="true"></i>
+              <span className="cart-counter">{cartCounter}</span>
             </Link>
-            <button onClick={logout}>Logout</button>
+            <button onClick={logout} className="logout-button">Logout</button>
           </>
         ) : (
-          // Render login and sign-up buttons when not authenticated
           <>
-            <Link to="/login" className="login-button">Login</Link>
-            <Link to="/signup" className="signup-button">Sign Up</Link>
+            <Link to="/login" className="auth-button login-button">Login</Link>
+            <Link to="/signup" className="auth-button signup-button">Sign Up</Link>
           </>
         )}
       </div>
@@ -41,3 +40,4 @@ const Header = () => {
 };
 
 export default Header;
+
