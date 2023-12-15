@@ -1,6 +1,6 @@
 ![9ced238c-ce17-4463-9c53-88ed71e3c3e9](https://github.com/Emmanuel-Oite/Group-7-eCommerce-app/assets/144509941/963c77c0-d14c-42f2-b635-29baf3487920)
 
-#Educatio
+# Educatio
 Educatio is your gateway to a world of learning. We offer a diverse range of courses tailored to empower and inspire lifelong learners.
 
 ## Collaborators
