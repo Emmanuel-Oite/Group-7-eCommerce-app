@@ -372,7 +372,9 @@ p {
 }
 
 .footer-contact {
-  align-items: flex-start;
+  align-items: flex-end;
+  bottom: 40px;
+  right: 20px;
 }
 
 /* Add styles for the Add Review section */

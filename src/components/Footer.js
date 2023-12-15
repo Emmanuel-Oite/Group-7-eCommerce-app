@@ -7,7 +7,7 @@ import '../index.css';
 const Footer = () => {
   return (
     <footer className="footer-container">
-      <div className="footer-about">
+      <div className="footer-section footer-about">
         <h3>About Educatio</h3>
         <p>
           Educatio is your gateway to a world of learning. We offer a diverse range of courses
@@ -18,8 +18,7 @@ const Footer = () => {
           and discovery.
         </p>
       </div>
-      
-      <div className="footer-logo-social">
+      <div className="footer-section footer-logo-social">
         <img src="/images/Educatio logo.png" alt="Company Logo" className="footer-logo" />
         <div className="social-links">
           <a href="https://facebook.com/Educatio" target="_blank" rel="noopener noreferrer">
@@ -33,8 +32,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-
-      <div className="footer-contact">
+      <div className="footer-section footer-contact">
         <p>Educatio</p>
         <p>123 Learning Ave, Knowledge City, 101010</p>
         <p>Phone: +1-234-567-8900</p>
