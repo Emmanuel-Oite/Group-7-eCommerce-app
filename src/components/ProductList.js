@@ -30,11 +30,13 @@ const ProductList = () => {
     <div className="grid-container">
       {courses.map((course) => (
         <div key={course.id} className="product-card">
-          <img
-            src={course.image}
-            alt={course.title}
-            className="product-image"
-          />
+<img
+  src={`/images/${course.image}`}
+  alt={course.title}
+  className="product-image"
+/>
+
+
           <h3 className="text-lg font-semibold mb-2">{course.title}</h3>
           {typeof course.price === 'number' && (
             <p className="text-gray-600 mb-2">${course.price.toFixed(2)}</p>

@@ -6,7 +6,7 @@
       "price": 49.99,
       "shortDescription": "Learn the essentials of digital marketing and boost your online presence.",
       "longDescription": "In this comprehensive digital marketing course, you'll master the skills needed to succeed in the digital landscape. From social media marketing to search engine optimization, this course covers it all.",
-      "image": "https://example.com/digital_marketing.jpg",
+      "image": "Digital Marketing.jpeg",
       "reviews": [
         {
           "user": "Alice",
@@ -24,7 +24,7 @@
       "price": 59.99,
       "shortDescription": "Discover the art and science of growing plants without soil.",
       "longDescription": "Explore the fascinating world of hydroponics and learn the principles behind soil-less plant cultivation. From nutrient solutions to advanced hydroponic systems, this course guides you through it all.",
-      "image": "https://example.com/hydroponics.jpg",
+      "image": "hydroponics.jpeg",
       "reviews": [
         {
           "user": "Eva",
@@ -42,7 +42,7 @@
       "price": 79.99,
       "shortDescription": "Delve into the mysterious world of quantum mechanics and its mind-bending concepts.",
       "longDescription": "Embark on a journey through the principles of quantum mechanics, from wave-particle duality to quantum entanglement. This course is designed to make complex concepts accessible and engaging.",
-      "image": "https://example.com/quantum_mechanics.jpg",
+      "image": "quantum mechanics.jpeg",
       "reviews": [
         {
           "user": "Grace",
@@ -60,7 +60,7 @@
       "price": 69.99,
       "shortDescription": "Unlock the basics of AI and understand its applications in the real world.",
       "longDescription": "Dive into the fundamentals of artificial intelligence, machine learning, and neural networks. This course provides a solid foundation for beginners interested in AI technologies.",
-      "image": "https://example.com/ai_for_beginners.jpg",
+      "image": "ai.jpeg",
       "reviews": [
         {
           "user": "Frank",
@@ -78,7 +78,7 @@
       "price": 89.99,
       "shortDescription": "Explore the world of culinary arts and elevate your cooking skills.",
       "longDescription": "Join this masterclass to learn advanced culinary techniques, flavor pairings, and presentation skills. Whether you're a beginner or an experienced cook, this course has something for everyone.",
-      "image": "https://example.com/culinary_arts.jpg",
+      "image": "culinary.jpeg",
       "reviews": [
         {
           "user": "Isabella",
@@ -96,7 +96,7 @@
       "price": 59.99,
       "shortDescription": "Empower yourself with essential financial knowledge for the modern age.",
       "longDescription": "Take control of your finances with this comprehensive course. Learn about budgeting, investing, and financial planning tailored to the unique challenges faced by millennials.",
-      "image": "https://example.com/financial_literacy.jpg",
+      "image": "literacy.jpeg",
       "reviews": [
         {
           "user": "Ryan",
@@ -114,7 +114,7 @@
       "price": 79.99,
       "shortDescription": "Embark on a cosmic journey and unravel the mysteries of the universe.",
       "longDescription": "Explore the wonders of astrophysics, from the formation of stars to the structure of galaxies. This course provides a deep understanding of our place in the cosmos.",
-      "image": "https://example.com/astrophysics.jpg",
+      "image": "astrophysics.jpeg",
       "reviews": [
         {
           "user": "Sam",
@@ -132,7 +132,7 @@
       "price": 49.99,
       "shortDescription": "Unleash your creativity with the basics of photography.",
       "longDescription": "Learn the essentials of photography, from understanding your camera to capturing stunning compositions. This course is perfect for beginners with a passion for visual storytelling.",
-      "image": "https://example.com/photography.jpg",
+      "image": "photography.jpeg",
       "reviews": [
         {
           "user": "Jack",
@@ -150,7 +150,7 @@
       "price": 69.99,
       "shortDescription": "Explore sustainable practices and their impact on modern businesses.",
       "longDescription": "Discover how businesses can contribute to environmental sustainability. This course covers eco-friendly practices, corporate responsibility, and green business strategies.",
-      "image": "https://example.com/sustainability_in_business.jpg",
+      "image": "sustainability.jpeg",
       "reviews": [
         {
           "user": "Leo",
@@ -168,7 +168,7 @@
       "price": 39.99,
       "shortDescription": "Calm your mind and reduce stress with mindfulness meditation techniques.",
       "longDescription": "Learn the art of mindfulness meditation to find inner peace and reduce stress in your daily life. This course provides practical exercises and guidance for beginners.",
-      "image": "https://example.com/mindfulness_meditation.jpg",
+      "image": "meditation.jpeg",
       "reviews": [
         {
           "user": "Liam",
@@ -179,61 +179,8 @@
           "comment": "Highly recommend for anyone dealing with stress or anxiety."
         }
       ]
-    },
-    {
-      "title": "o",
-      "shortDescription": "",
-      "longDescription": "o",
-      "price": 0,
-      "image": "o",
-      "reviews": [
-        {
-          "user": "User1",
-          "comment": "Great product! Highly recommend."
-        },
-        {
-          "user": "User2",
-          "comment": "Awesome quality. Will buy again."
-        }
-      ],
-      "id": 11
-    },
-    {
-      "title": "",
-      "shortDescription": "",
-      "longDescription": "",
-      "price": 0,
-      "image": "",
-      "reviews": [
-        {
-          "user": "User1",
-          "comment": "Great product! Highly recommend."
-        },
-        {
-          "user": "User2",
-          "comment": "Awesome quality. Will buy again."
-        }
-      ],
-      "id": 12
-    },
-    {
-      "productId": 1,
-      "reviews": [
-        {
-          "user": "Eva",
-          "comment": "Amazing course! I've successfully set up my hydroponic garden."
-        },
-        {
-          "user": "Charlie",
-          "comment": "Very informative. Loved the practical demonstrations."
-        },
-        {
-          "user": "g",
-          "comment": "g"
-        }
-      ],
-      "id": 13
     }
+
   ],
   "users": [
     {

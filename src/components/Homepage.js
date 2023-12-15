@@ -5,7 +5,7 @@ import ProductList from './ProductList';
 const Homepage = () => {
   return (
     <div>
-      <h2>Products</h2>
+      <h2>Courses</h2>
       <ProductList />
     </div>
   );
