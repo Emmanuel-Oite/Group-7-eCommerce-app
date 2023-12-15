@@ -31,10 +31,11 @@ const ProductList = () => {
       {courses.map((course) => (
         <div key={course.id} className="product-card">
 <img
-  src={`/images/${course.image}`}
+  src={`${process.env.PUBLIC_URL}/images/${course.image}`}
   alt={course.title}
   className="product-image"
 />
+
 
 
           <h3 className="text-lg font-semibold mb-2">{course.title}</h3>

@@ -77,7 +77,8 @@ const MyCart = () => {
           {cart.map((product) => (
             <div key={product.id} className="cart-item-container">
               <div className="cart-item">
-              <img src={`/images/${product.image}`} alt={product.title} className="cart-item-image" />
+              <img src={`${process.env.PUBLIC_URL}/images/${product.image}`} alt={product.title} className="cart-item-image" />
+
 
 
                 <div className="cart-item-details">
