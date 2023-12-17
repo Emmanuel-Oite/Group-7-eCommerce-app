@@ -11,12 +11,11 @@ Educatio is your gateway to a world of learning. We offer a diverse range of cou
 3. Bonventure Maeta
 4. Doris Kiprop
 
-## Project Livelink
-Front end : [
-](https://verdant-biscuit-60c500.netlify.app)
+## Project Livelink https://verdant-biscuit-60c500.netlify.app/
 
-Backend :[
-](https://group-7-backend.onrender.com)
+1. Frontend link (Netlify): https://verdant-biscuit-60c500.netlify.app/
+2. Backend link (Render): https://group-7-backend.onrender.com
+
 ## Requirements
 
 - Basic react and Javascript knowledge
@@ -47,7 +46,7 @@ yarn start
 2. [Figma](https://www.figma.com/)
 3. [React](https://reactnative.dev/)
 
-## Copyright and Licence
+## Copyright and License
 
 (c)2023 Educatio. All rights reserved
 MIT License
