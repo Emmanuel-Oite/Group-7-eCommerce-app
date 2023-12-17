@@ -11,7 +11,7 @@ const Login = () => {
 
   const handleLogin = async () => {
     try {
-      const response = await fetch('http://localhost:3001/users');
+      const response = await fetch('https://group-7-backend.onrender.com/users');
       const userData = await response.json();
 
       const user = userData.find((user) => user.username === username && user.password === password);

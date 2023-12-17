@@ -33,7 +33,7 @@ export const AuthProvider = ({ children }) => {
   const signUp = async (username, password) => {
     try {
       
-      const response = await fetch('http://localhost:3001/users', {
+      const response = await fetch('https://group-7-backend.onrender.com/users', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
