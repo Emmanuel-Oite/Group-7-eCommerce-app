@@ -12,7 +12,11 @@ Educatio is your gateway to a world of learning. We offer a diverse range of cou
 4. Doris Kiprop
 
 ## Project Livelink
+Front end : [
+](https://verdant-biscuit-60c500.netlify.app)
 
+Backend :[
+](https://group-7-backend.onrender.com)
 ## Requirements
 
 - Basic react and Javascript knowledge
